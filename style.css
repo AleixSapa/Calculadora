@@ -1,0 +1,22 @@
+
+button{
+    width: 100px;
+    height: 100px;
+    font-size: 20px;
+}
+.N{
+    margin-top: 20px;
+}
+.S{
+    margin: 20px;
+}
+.N0{
+    width: 200px;
+}
+
+
+/*
+1. Tipus:Button
+2. Clases:.N
+3. Id: #Pepito
+*/
