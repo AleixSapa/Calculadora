@@ -1,18 +1,33 @@
-
-button{
+button {
     width: 100px;
     height: 100px;
     font-size: 20px;
 }
-.N{
+
+.N {
     margin-top: 20px;
 }
-.S{
+
+.S {
     margin: 20px;
 }
-.N0{
+
+.N0 {
     width: 200px;
 }
+
+.NG {
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+#N0 {
+    width: 203px;
+    height: 100px;
+}
+
 
 
 /*
