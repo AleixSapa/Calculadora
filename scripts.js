@@ -12,3 +12,6 @@ function onclickNumbers(Num) {
 function onclickSimbol(Simbol) {
     alert(Simbol)
 }
+function onclickPantalla() {
+
+}
