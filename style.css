@@ -28,11 +28,26 @@ button {
     height: 100px;
 }
 
-#pantalla {
-    margin-left: 440px;
-    margin-top: 0px;
+.BotonGrande {
+    width: 440px;
 }
 
+.ColorN{
+    color: red;
+    background-color: purple;
+}
+.ColorS{
+    color: blue;
+    background-color: aqua;
+}
+#Coma{
+    color: cyan;
+    background-color: brown;
+}
+#Igual{
+    color: darkmagenta;
+    background-color: darkseagreen;
+}
 
 /*
 1. Tipus:Button

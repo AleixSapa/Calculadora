@@ -12,29 +12,31 @@
 
     <main>
         <div id="Fila1">
-            <button class="N" onclick="onclickNumbers('7')">7</button>
-            <button class="N" onclick="onclickNumbers('8')">8</button>
-            <button class="N" onclick="onclickNumbers('9')">9</button>
-            <button class="S" onclick="onclickSimbol('+')">+</button>
+            <button class="N ColorN" onclick="onclickNumbers('7')">7</button>
+            <button class="N ColorN" onclick="onclickNumbers('8')">8</button>
+            <button class="N ColorN" onclick="onclickNumbers('9')">9</button>
+            <button class="S ColorS" onclick="onclickSimbol('+')">+</button>
         </div>
         <div id="Fila2">
-            <button class="N" onclick="onclickNumbers('4')">4</button>
-            <button class="N" onclick="onclickNumbers('5')">5</button>
-            <button class="N" onclick="onclickNumbers(6)">6</button>
-            <button class="S" onclick="onclickSimbol('-')">-</button>
+            <button class="N ColorN" onclick="onclickNumbers('4')">4</button>
+            <button class="N ColorN"onclick="onclickNumbers('5')">5</button>
+            <button class="N ColorN" onclick="onclickNumbers(6)">6</button>
+            <button class="S ColorS" onclick="onclickSimbol('-')">-</button>
         </div>
         <div id="Fila3">
-            <button class="N" onclick="onclickNumbers('1')">1</button>
-            <button class="N" onclick="onclickNumbers('2')">2</button>
-            <button class="N" onclick="onclickNumbers('3')">3</button>
-            <button class="S" onclick="onclickSimbol('*')">x</button>
+            <button class="N ColorN"  onclick="onclickNumbers('1')">1</button>
+            <button class="N ColorN"  onclick="onclickNumbers('2')">2</button>
+            <button class="N ColorN"  onclick="onclickNumbers('3')">3</button>
+            <button class="S ColorS" onclick="onclickSimbol('*')">x</button>
         </div>
         <div id="Fila4">
-            <button class=">NG" id="N0" onclick="onclickNumbers('0')">0</button>
-            <button class="NG" onclick="onclickSimbol('.')">.</button>
-            <button class="S" onclick="onclickSimbol('/')">/</button>
+            <button class="NG  ColorN" id="N0" onclick="onclickNumbers('0')">0</button>
+            <button class="NG" id="Coma" onclick="onclickSimbolComa('.')">,</button>
+            <button class="S ColorS" onclick="onclickSimbol('/')">/</button>
         </div>
-        <button id="pantalla" onclick="onclickPantalla"></button>
+        <button class="BotonGrande" id="Igual" onclick="onclickPantalla()">=</button>
+        <br>
+        <button id="pantalla" class="BotonGrande"></button>
     </main>
 
     <footer></footer>
